@@ -12,17 +12,14 @@ module.exports = {
         {
             resolve: "gatsby-source-filesystem",
             options: {
-
-                name: "blog_posts",
-                path: `${__dirname}/blog_posts`,
+                name: "blog-posts",
+                path: `${__dirname}/blog-posts`,
             },
         },
         {
             resolve: "gatsby-plugin-preconnect",
             options: {
-
                 domains: [
-
                     {domain: "https://rsms.me/", crossOrigin: false},
                 ],
             },
@@ -30,14 +27,12 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-
-                icon: "static/favicon.png",
+                icon: "md-blog-config/favicon.png",
             },
         },
         {
             resolve: "gatsby-transformer-remark",
             options: {
-
                 plugins: [
                     {
                         resolve: "gatsby-remark-images",

@@ -3,7 +3,7 @@ import * as React from "react"
 import {Link, graphql} from "gatsby"
 import Layout from "../components/layout"
 import MetaData from "../components/metadata";
-import CONFIG from "../../md-blog-config";
+import CONFIG from "../../md-blog-config/config";
 
 export const query = graphql`
     query{

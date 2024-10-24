@@ -1,3 +1,3 @@
-[submodule "blog_posts"]
-	path = blog_posts
+[submodule "blog-posts"]
+	path = blog-posts
 	url = git@github.com:ogoregen/blog-posts.git
