@@ -1,6 +1,6 @@
 
 import React from "react";
-import CONFIG from "../config";
+import CONFIG from "../../md-blog-config";
 
 const Footer = () => {
 

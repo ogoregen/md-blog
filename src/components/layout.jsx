@@ -2,8 +2,8 @@
 import React from "react";
 import {Link} from "gatsby"
 import Footer from "./footer";
-import "../style/style.css";
-import CONFIG from "../config";
+import "../style.css";
+import CONFIG from "../../md-blog-config";
 
 const Layout = ({title, subtitle, children}) => {
 
