@@ -28,8 +28,6 @@ export const query = graphql`
 
 const Blog = ({data}) => {
 
-    document.documentElement.style.setProperty("--primary-color", CONFIG.themeColor);
-
     if(data.allMarkdownRemark.nodes.length == 0){
 
         return(

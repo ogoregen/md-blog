@@ -2,10 +2,10 @@
 /* font */
 
 @import url("https://rsms.me/inter/inter.css");
+@import "../data/theme.css";
 
 :root{
     font-family: 'Inter', sans-serif;
-    --primary-color: #63216B;
     --spacing: 1rem;
 }
 
