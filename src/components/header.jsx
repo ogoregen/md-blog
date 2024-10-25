@@ -27,9 +27,11 @@ const Header = () => {
 			<Link to="/" className="fly-title">{CONFIG.title}</Link>
 			<nav>
 				<ul class="fly-nav">
-					<li>
-						<Link to="/" activeClassName="fly-nav-active">blog</Link>
-					</li>
+					{ data.allMarkdownRemark.nodes.length > 0 &&
+						<li>
+							<Link to="/" activeClassName="fly-nav-active">blog</Link>
+						</li>
+					}
 					{
 						data.allMarkdownRemark.nodes.map(node => (
 							<li>
