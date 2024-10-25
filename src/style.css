@@ -3,10 +3,6 @@
 
 @import url("https://rsms.me/inter/inter.css");
 
-::selection{
-    background-color: #dfd2e1 !important;
-}
-
 :root{
     font-family: 'Inter', sans-serif;
     --primary-color: #63216B;

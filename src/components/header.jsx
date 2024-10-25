@@ -26,7 +26,7 @@ const Header = () => {
 		<header className="fly-header">
 			<Link to="/" className="fly-title">{CONFIG.title}</Link>
 			<nav>
-				<ul class="fly-nav">
+				<ul className="fly-nav">
 					{ data.allMarkdownRemark.nodes.length > 0 &&
 						<li>
 							<Link to="/" activeClassName="fly-nav-active">blog</Link>
