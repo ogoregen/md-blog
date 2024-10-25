@@ -28,6 +28,15 @@ export const query = graphql`
 
 const Blog = ({data}) => {
 
+    if(data.allMarkdownRemark.nodes.length == 0){
+
+        return(
+            <Layout>
+                <p className="fly-text-muted fly-text-center">no posts yet</p>
+            </Layout>
+        );
+    }
+
     return(
         <Layout>
             {
