@@ -5,7 +5,6 @@ const CONFIG = require("./data/config.js");
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-    pathPrefix: "/md-blog",
     siteMetadata: {
         title: CONFIG.title,
         description: CONFIG.description,
@@ -28,8 +27,8 @@ module.exports = {
 
                                     description: node.excerpt,
                                     date: node.frontmatter.date,
-                                    url: site.siteMetadata.siteUrl + node.frontmatter.slug,
-                                    guid: site.siteMetadata.siteUrl + node.frontmatter.slug,
+                                    url: site.siteMetadata.siteUrl + '/' + node.frontmatter.slug,
+                                    guid: site.siteMetadata.siteUrl + '/' + node.frontmatter.slug,
                                     custom_elements: [{"content:encoded": node.html}],
                                 });
                             });
