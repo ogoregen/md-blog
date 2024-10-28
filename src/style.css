@@ -122,6 +122,13 @@ h1{
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 768px){
+
+    .fly-flex-break-mobile{
+        flex-direction: column;
+    }
+}
+
 /* height */
 
 .fly-full-height{
@@ -193,6 +200,10 @@ h1{
     margin-top: 1.5rem;
 }
 
+.fly-margin-large-bottom{
+    margin-bottom: 1.5rem;
+}
+
 /* grid */
 
 .fly-grid{
@@ -217,15 +228,7 @@ h1{
     width: 100%;
 }
 
-.fly-mobile-only{
-    display: none;
-}
-
 @media only screen and (min-width: 768px){
-
-    .fly-mobile-only{
-        display: initial;
-    }
 
     .fly-width-expand-small{
         width: initial;

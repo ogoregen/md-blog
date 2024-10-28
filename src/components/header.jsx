@@ -34,7 +34,7 @@ const Header = () => {
 					}
 					{
 						data.allMarkdownRemark.nodes.map(node => (
-							<li>
+							<li key={node.id}>
 								<Link to={`/${node.frontmatter.slug}`} activeClassName="fly-nav-active">{node.frontmatter.title}</Link>
 							</li>
 						))

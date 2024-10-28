@@ -41,12 +41,14 @@ const Blog = ({data}) => {
         <Layout>
             {
                 data.allMarkdownRemark.nodes.map(node => (
-                    <div className="fly-flex fly-flex-space-between fly-margin-bottom" key={node.id}>
-                        <div>
-                            <Link to={`/${node.frontmatter.slug}`} className="fly-text-lead">{node.frontmatter.title}</Link>
-                            <p className="fly-margin-none-top">{node.frontmatter.description}</p>
+                    <div className="fly-margin-large-bottom" key={node.id}>
+                        <div className="fly-flex fly-flex-space-between fly-margin-bottom fly-flex-break-mobile">
+                            <div>
+                                <Link to={`/${node.frontmatter.slug}`} className="fly-text-lead">{node.frontmatter.title}</Link>
+                                <p className="fly-margin-none">{node.frontmatter.description}</p>
+                            </div>
+                            <p className="fly-margin-none fly-text-muted">{node.frontmatter.date}</p>
                         </div>
-                        <p className="fly-margin-none-top fly-mobile-only">{node.frontmatter.date}</p>
                     </div>
                 ))
             }
