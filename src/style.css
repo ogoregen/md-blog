@@ -204,6 +204,10 @@ h1{
     margin-bottom: 1.5rem;
 }
 
+.fly-margin-xlarge-bottom{
+    margin-bottom: 1.75rem;
+}
+
 /* grid */
 
 .fly-grid{
