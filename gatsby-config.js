@@ -75,7 +75,7 @@ module.exports = {
             resolve: "gatsby-plugin-preconnect",
             options: {
                 domains: [
-                    {domain: "https://rsms.me/"},
+                    "https://rsms.me/",
                 ],
             },
         },
