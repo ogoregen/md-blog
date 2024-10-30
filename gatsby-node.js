@@ -14,7 +14,7 @@ exports.createSchemaCustomization = ({actions}) => {
 			slug: String!
 			description: String!
 			date: Date @dateformat
-			index: Int
+			navIndex: Int
 		}
 	`);
   };

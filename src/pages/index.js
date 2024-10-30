@@ -28,7 +28,7 @@ export const query = graphql`
 
 const Blog = ({data}) => {
 
-    if(data.allMarkdownRemark.nodes.length == 0){
+    if(data.allMarkdownRemark.nodes.length === 0){
 
         return(
             <Layout>

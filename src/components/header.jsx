@@ -9,7 +9,7 @@ const Header = () => {
 		query{
 			allMarkdownRemark(
 				filter: { fileAbsolutePath: { regex: "/(pages)/" } },
-				sort: { frontmatter: { index: ASC } }
+				sort: { frontmatter: { navIndex: ASC } }
 			){
 				nodes {
 					frontmatter {
