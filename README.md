@@ -26,3 +26,11 @@ slug: "hello-world" # (URL slug)
 description: "This is a post." # (Shown in homepage and used in description meta tag)
 ---
 ```
+
+## Installation
+
+Clone this template repository and deploy.
+
+## Contribution
+
+Pull requests and issues are welcome.
