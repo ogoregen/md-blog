@@ -10,7 +10,7 @@ You can use this template repository as a starting point for your [Gatsby](https
 ```md
 ---
 title: "About"
-slug: "about" #(URL slug)
+slug: "about" # (URL slug)
 description: "This is a page." # (Used in description meta tag)
 navIndex: 1 # (Position in navbar)
 ---
