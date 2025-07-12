@@ -4,6 +4,7 @@ const CONFIG = {
     description: "nothing less or more than a blog",
     url: "https://ogoregen.github.io/md-blog/",
     footerText: "CC-BY-SA",
+    blogPageNavName: "blog",
 };
 
 module.exports = CONFIG;
