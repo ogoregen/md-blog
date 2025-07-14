@@ -35,12 +35,13 @@ html, body{
 }
 
 a{
+
     text-decoration: none;
     color: var(--primary-color);
-}
 
-a:hover{
-    text-decoration: underline;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 /* text */
@@ -51,14 +52,15 @@ h1{
 }
 
 .fly-title{
+
     text-decoration: none;
     color: var(--primary-color);
     font-size: 2rem;
     font-weight: 900;
-}
 
-.fly-title:hover{
-    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 .fly-text-muted{
@@ -75,13 +77,13 @@ h1{
 }
 
 .fly-link-text{
+
     text-decoration: none;
     color: black;
-}
 
-.fly-link-text:hover{
-    color: var(--primary-color);
-    text-decoration: none;
+    &:hover{
+        color: var(--primary-color);
+    }
 }
 
 /* container */
@@ -261,7 +263,10 @@ h1{
     .fly-width-3-4{
         width: 75%;
     }
+}
 
+.fly-1-2-desktop{
+    width: 50%;
 }
 
 /* list */
@@ -272,33 +277,35 @@ ul.fly-list{
 
 }
 
-ul li:not(:last-child){ 
-    margin-bottom: 1rem;  
+ul li:not(:last-child){
+    margin-bottom: 1rem;
 }
 
 /* navigation */
 
 ul.fly-nav{
+
     list-style-type: none;
     padding: 0;
-}
 
-ul.fly-nav li{
-    display: inline;
-}
+    & li{
 
-ul.fly-nav li:not(:first-child){
-    margin-left: 1rem;
-}
+        display: inline;
 
+        &:not(:first-child){
+            margin-left: 1rem;
+        }
 
-ul.fly-nav li a{
-    text-decoration: none;
-    color: inherit;
-}
+        & a{
 
-ul.fly-nav li a:hover{
-    color: var(--primary-color);
+            text-decoration: none;
+            color: inherit;
+
+            &:hover{
+                color: var(--primary-color);
+            }
+        }
+    }
 }
 
 .fly-nav-active{
@@ -326,15 +333,10 @@ code{
     border-radius: 0 !important;
     line-height: 1.25 !important;
     font-size: 1rem !important;
-}
 
-code *{
-    line-height: 1.25 !important;
-}
-
-.fly-1-2-desktop{
-
-    width: 50%;
+    & *{
+        line-height: 1.25 !important;
+    }
 }
 
 /* components */
