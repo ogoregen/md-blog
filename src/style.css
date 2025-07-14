@@ -11,7 +11,7 @@
 
 @supports(font-variation-settings: normal){
 
-    :root{ 
+    :root{
         font-family: 'Inter var', sans-serif;
     }
 }
@@ -38,7 +38,7 @@ a{
     text-decoration: none;
     color: var(--primary-color);
 }
-    
+
 a:hover{
     text-decoration: underline;
 }
@@ -78,7 +78,7 @@ h1{
     text-decoration: none;
     color: black;
 }
-    
+
 .fly-link-text:hover{
     color: var(--primary-color);
     text-decoration: none;
