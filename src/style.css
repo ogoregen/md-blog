@@ -274,7 +274,6 @@ h1{
 ul.fly-list{
     list-style-type: none;
     padding: 0;
-
 }
 
 ul li:not(:last-child){
