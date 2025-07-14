@@ -333,10 +333,10 @@ code{
     border-radius: 0 !important;
     line-height: 1.25 !important;
     font-size: 1rem !important;
+}
 
-    & *{
-        line-height: 1.25 !important;
-    }
+code *{
+    line-height: 1.25 !important;
 }
 
 /* components */
