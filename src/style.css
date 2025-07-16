@@ -20,18 +20,10 @@
     line-height: 1.5;
 }
 
+/* base */
+
 iframe body{
     overflow: hidden;
-}
-
-html, body{
-    margin: 0;
-}
-
-.body{
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 
 a{
