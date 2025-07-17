@@ -331,13 +331,6 @@ code *{
 .fly-header{
     display: flex;
     justify-content: space-between;
-    z-index: 1;
-    position: relative;
-}
-
-.fly-footer{
-    z-index: 1;
-    position: relative;
 }
 
 @media screen and (max-width: 80rem){
