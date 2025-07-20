@@ -344,3 +344,21 @@ code *{
         width: 100%;
     }
 }
+
+hr{
+    border: none;
+    border-top: 1px solid rgb(200, 200, 200);
+    margin: 1rem 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 0.5rem;
+    padding-left: var(--spacing);
+    padding-right: var(--spacing);
+    margin: 0;
+    border: 1px solid rgb(200, 200, 200);
+}
