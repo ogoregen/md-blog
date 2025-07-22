@@ -1,7 +1,7 @@
 
 import React from "react";
-import Footer from "./footer";
 import Header from "./header";
+import Footer from "./footer";
 
 const Layout = ({title, subtitle, children}) => {
 
@@ -10,8 +10,8 @@ const Layout = ({title, subtitle, children}) => {
 	}
 
 	return(
-		<div className="fly-container" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',  minHeight: '100vh'}}>
-			<div style={{padding: '1rem'}}>
+		<div className="fly-container fly-full-height fly-flex fly-flex-column fly-flex-space-between">
+			<div className="fly-padding">
 				<main className="fly-width-2-3 fly-margin-horizontal-auto">
 					<Header/>
 					<div className="fly-text-center">

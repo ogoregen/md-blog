@@ -134,6 +134,10 @@ a{
 
 /* padding */
 
+.fly-padding{
+    padding: 1rem;
+}
+
 .fly-padding-top{
     padding-top: 1rem;
 }
