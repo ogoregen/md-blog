@@ -7,6 +7,13 @@
 :root{
     font-family: 'Inter', sans-serif;
     --spacing: 1rem;
+    --spacing-small: calc(var(--spacing) / 2);
+    --spacing-large: calc(var(--spacing) * 1.5);
+    --spacing-xsmall: calc(var(--spacing) / 4);
+    --spacing-xlarge: calc(var(--spacing) * 1.75);
+    --muted-background-color: whitesmoke;
+    --muted-foreground-color: dimgray;
+    --border-color: #c8c8c8;
 }
 
 @supports(font-variation-settings: normal){
@@ -40,7 +47,7 @@ h1{
 }
 
 .fly-text-muted{
-    color: dimgray;
+    color: var(--muted-foreground-color);
 }
 
 .fly-text-center{
@@ -134,7 +141,7 @@ a{
 /* margin */
 
 .fly-margin-small{
-    margin: 0.5rem;
+    margin: var(--spacing-small);
 }
 
 .fly-margin-none{
@@ -150,35 +157,35 @@ a{
 }
 
 .fly-margin{
-    margin: 1rem;
+    margin: var(--spacing);
 }
 
 .fly-margin-left{
-    margin-left: 1rem;
+    margin-left: var(--spacing);
 }
 
 .fly-margin-right{
-    margin-right: 1rem;
+    margin-right: var(--spacing);
 }
 
 .fly-margin-small-right{
-    margin-right: 0.5rem;
+    margin-right: var(--spacing-small);
 }
 
 .fly-margin-small-bottom{
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--spacing-small);
 }
 
 .fly-margin-xsmall-right{
-    margin-right: 0.25rem;
+    margin-right: var(--spacing-xsmall);
 }
 
 .fly-margin-top{
-    margin-top: 1rem;
+    margin-top: var(--spacing);
 }
 
 .fly-margin-bottom{
-    margin-bottom: 1rem;
+    margin-bottom: var(--spacing);
 }
 
 .fly-margin-horizontal-auto{
@@ -187,22 +194,22 @@ a{
 }
 
 .fly-margin-large-top{
-    margin-top: 1.5rem;
+    margin-top: var(--spacing-large);
 }
 
 .fly-margin-large-bottom{
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--spacing-large);
 }
 
 .fly-margin-xlarge-bottom{
-    margin-bottom: 1.75rem;
+    margin-bottom: var(--spacing-xlarge);
 }
 
 /* grid */
 
 .fly-grid{
     display: grid;
-    gap: 1rem;
+    gap: var(--spacing);
 }
 
 .fly-grid-2{
@@ -265,7 +272,7 @@ ul.fly-list{
 }
 
 ul li:not(:last-child){
-    margin-bottom: 1rem;
+    margin-bottom: var(--spacing);
 }
 
 /* navigation */
@@ -280,7 +287,7 @@ ul.fly-nav{
         display: inline;
 
         &:not(:first-child){
-            margin-left: 1rem;
+            margin-left: var(--spacing);
         }
 
         & a{
@@ -302,15 +309,15 @@ ul.fly-nav{
 /* card */
 
 .fly-card{
-    background-color: whitesmoke;
-    padding: 1rem;
+    background-color: var(--muted-background-color);
+    padding: var(--spacing);
 }
 
 /* code and pre*/
 
 pre{
-    background-color: whitesmoke !important;
-    padding: 1rem;
+    background-color: var(--muted-background-color) !important;
+    padding: var(--spacing);
     overflow: auto;
     scrollbar-width: thin;
     line-height: 1.25 !important;
@@ -347,8 +354,8 @@ code *{
 
 hr{
     border: none;
-    border-top: 1px solid rgb(200, 200, 200);
-    margin: 1rem 0;
+    border-top: 1px solid var(--border-color);
+    margin: var(--spacing) 0;
 }
 
 table{
@@ -356,9 +363,9 @@ table{
 }
 
 th, td{
-    padding: 0.5rem;
+    padding: var(--spacing-small);
     padding-left: var(--spacing);
     padding-right: var(--spacing);
     margin: 0;
-    border: 1px solid rgb(200, 200, 200);
+    border: 1px solid var(--border-color);
 }
