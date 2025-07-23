@@ -1,7 +1,7 @@
 
 import React from "react";
 
-const MetaData = ({title, description, children}) => {
+const Metadata = ({title, description, children}) => {
 
 	return(
         <>
@@ -13,4 +13,4 @@ const MetaData = ({title, description, children}) => {
 	);
 };
 
-export default MetaData;
+export default Metadata;

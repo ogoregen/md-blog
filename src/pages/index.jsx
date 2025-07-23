@@ -4,7 +4,7 @@ import {Link, graphql} from "gatsby"
 import "normalize.css";
 import "../style.css";
 import Layout from "../components/layout"
-import MetaData from "../components/metadata";
+import Metadata from "../components/metadata";
 import CONFIG from "../../data/config";
 
 export const query = graphql`
@@ -59,7 +59,7 @@ const Blog = ({data}) => {
 export default Blog;
 
 export const Head = () => (
-	<MetaData
+	<Metadata
 		title={CONFIG.title}
 		description={CONFIG.description}
 	/>

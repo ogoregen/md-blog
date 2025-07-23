@@ -1,7 +1,7 @@
 
 import React from "react";
 import Layout from "../components/layout";
-import MetaData from "../components/metadata";
+import Metadata from "../components/metadata";
 
 const NotFound = () => {
 
@@ -15,5 +15,5 @@ const NotFound = () => {
 export default NotFound;
 
 export const Head = () => (
-	<MetaData title="not here"/>
+	<Metadata title="not here"/>
 );

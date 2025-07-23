@@ -2,7 +2,7 @@
 import React from "react";
 import {graphql} from "gatsby"
 import Layout from "../components/layout"
-import MetaData from "../components/metadata";
+import Metadata from "../components/metadata";
 
 export const query = graphql`
     query($id: String){
@@ -33,7 +33,7 @@ const BlogPost = ({data, children}) => {
 export default BlogPost;
 
 export const Head = ({data}) => (
-    <MetaData
+    <Metadata
         title={data.markdownRemark.frontmatter.title}
         description={data.markdownRemark.excerpt}
     />
