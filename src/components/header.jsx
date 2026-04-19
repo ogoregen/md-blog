@@ -8,7 +8,7 @@ const Header = () => {
 	const data = useStaticQuery(graphql`
 		query{
 			allMarkdownRemark(
-				filter: { fileAbsolutePath: { regex: "/(pages)/" } },
+				filter: { internal: { contentFilePath: { regex: "/(pages)/" } } },
 				sort: { frontmatter: { navIndex: ASC } }
 			){
 				nodes {
