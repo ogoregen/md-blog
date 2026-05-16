@@ -10,7 +10,7 @@ import CONFIG from "../../data/config";
 export const query = graphql`
     query{
         allMarkdownRemark(
-            filter: { internal: { contentFilePath: { regex: "/(posts)/" } } },
+            filter: { fileAbsolutePath: { regex: "/(posts)/" } },
             sort: { frontmatter: { date: DESC } }
         ){
             nodes {
