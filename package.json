@@ -1,40 +1,38 @@
 {
-	"name": "md-blog",
-	"version": "1.0.0",
-	"private": true,
-	"description": "md-blog",
-	"author": "flighty",
-	"keywords": [
-		"gatsby"
-	],
-	"scripts": {
-		"develop": "gatsby develop",
-		"start": "gatsby develop",
-		"build": "gatsby build",
-		"serve": "gatsby serve",
-		"clean": "gatsby clean"
-	},
-	"dependencies": {
-		"gatsby": "^5.14.6",
-		"gatsby-plugin-feed": "^5.13.1",
-		"gatsby-plugin-image": "^3.11.0",
-		"gatsby-plugin-manifest": "^5.11.0",
-		"gatsby-plugin-preconnect": "^1.4.0",
-		"gatsby-plugin-sharp": "^5.11.0",
-		"gatsby-remark-images": "^7.5.0",
-		"gatsby-remark-prismjs": "^7.11.0",
-		"gatsby-source-filesystem": "^5.11.0",
-		"gatsby-transformer-remark": "^6.11.0",
-		"gatsby-transformer-sharp": "^5.11.0",
-		"normalize.css": "^8.0.1",
-		"prismjs": "^1.30.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
-	},
-	"devDependencies": {
-		"gh-pages": "^6.2.0"
-	},
-	"optionalDependencies": {
-		"@parcel/watcher-linux-x64-glibc": "2.2.0"
-	}
+    "name": "md-blog",
+    "version": "1.0.0",
+    "private": true,
+    "description": "md-blog",
+    "author": "flighty",
+    "keywords": ["gatsby"],
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean"
+    },
+    "dependencies": {
+        "gatsby": "^5.16.1",
+        "gatsby-plugin-feed": "^5.16.0",
+        "gatsby-plugin-image": "^3.16.0",
+        "gatsby-plugin-manifest": "^5.16.0",
+        "gatsby-plugin-preconnect": "^1.4.0",
+        "gatsby-plugin-sharp": "^5.16.0",
+        "gatsby-remark-images": "^7.16.0",
+        "gatsby-remark-prismjs": "^7.16.0",
+        "gatsby-source-filesystem": "^5.16.0",
+        "gatsby-transformer-remark": "^6.16.0",
+        "gatsby-transformer-sharp": "^5.16.0",
+        "normalize.css": "^8.0.1",
+        "prismjs": "^1.30.0",
+        "react": "^19.2.6",
+        "react-dom": "^19.2.6"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.3.0"
+    },
+    "optionalDependencies": {
+        "@parcel/watcher-linux-x64-glibc": "2.5.6"
+    }
 }
