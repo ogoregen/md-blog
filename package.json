@@ -4,7 +4,9 @@
     "private": true,
     "description": "md-blog",
     "author": "flighty",
-    "keywords": ["gatsby"],
+    "keywords": [
+        "gatsby"
+    ],
     "scripts": {
         "develop": "gatsby develop",
         "start": "gatsby develop",
@@ -17,8 +19,9 @@
         "gatsby-plugin-feed": "^5.16.0",
         "gatsby-plugin-image": "^3.16.0",
         "gatsby-plugin-manifest": "^5.16.0",
-        "gatsby-plugin-preconnect": "^1.4.0",
+        "gatsby-plugin-robots-txt": "^1.8.0",
         "gatsby-plugin-sharp": "^5.16.0",
+        "gatsby-plugin-sitemap": "^6.16.0",
         "gatsby-remark-images": "^7.16.0",
         "gatsby-remark-prismjs": "^7.16.0",
         "gatsby-source-filesystem": "^5.16.0",

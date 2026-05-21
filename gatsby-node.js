@@ -18,4 +18,3 @@ exports.createSchemaCustomization = ({actions}) => {
 		}
 	`);
   };
-  

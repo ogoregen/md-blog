@@ -1,6 +1,7 @@
 
 /* font */
 
+@import "normalize.css";
 @import url("https://rsms.me/inter/inter.css");
 @import "../data/theme.css";
 
