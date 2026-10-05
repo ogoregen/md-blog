@@ -1,7 +1,7 @@
 
 # md-blog
 
-**Succeeded by [a-blog](github.com/ogoregen/a-blog).**
+**Succeeded by [a-blog](https://github.com/ogoregen/a-blog).**
 
 Reads Markdown files into blog posts and pages. Features RSS, code syntax highlighting.
 
